@@ -282,7 +282,7 @@ namespace marketAutomation
 
             #endregion
 
-            #region day5 Foreach ile Market Analizi
+            #region day5 Market Analysis with Foreach
 
             Console.WriteLine("---WELCOME TO MY MARKET---");
             Console.WriteLine("--------------------------");
@@ -365,7 +365,7 @@ namespace marketAutomation
             {
                 if (prices[k] > 100)
                 {
-                     Console.WriteLine($"{item} - {prices[k]} TL (Lüks Ürün)");
+                     Console.WriteLine($"{item} - {prices[k]} TL (Luxury Product)");
                 }
                 else
                 {
